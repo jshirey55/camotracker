@@ -3,6 +3,7 @@ import './App.css'
 import Gold from './components/Gold'
 import ArcLight from './components/ArclLight'
 import Storm from './components/Storm'
+import Count from './components/Count'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
     <h1>Camo Tracker</h1>
+    <Count />
     <Gold />
     <ArcLight />
     <Storm />

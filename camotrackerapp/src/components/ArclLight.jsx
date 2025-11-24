@@ -2,7 +2,7 @@ import React from "react";
 import "./styles/styles.css"
 
 export default function ArcLight() {
-    
+
     return(
         <>
     <div className="arc-light-container">
@@ -10,10 +10,10 @@ export default function ArcLight() {
             
             <h2 className="class-title">Assult Rifles</h2>
                 <div>M15 Mod
-                    <input type="checkbox" id='m15'/>
+                    <input type="checkbox" id='myCheckbox'/>
                 </div>
                 <div>AK-27
-                    <input type="checkbox" id="ak27" />
+                    <input type="checkbox" id="ak27"/>
                 </div>
                 <div>MXR-17
                     <input type="checkbox" id="mxr17"/>

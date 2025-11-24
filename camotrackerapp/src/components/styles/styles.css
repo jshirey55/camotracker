@@ -1,33 +1,37 @@
-.gold-container{
+.gold-container {
     text-align: left;
     display: inline-block;
     color: gold;
     border: solid;
-    padding: 10px;
+    padding: 15px;
     margin: 20px;
     border-radius: 12px;
 }
 
-.arc-light-container{
+.arc-light-container {
     text-align: left;
     display: inline-block;
     color: rgb(237, 39, 220);
     border: solid;
-    padding: 10px;
+    padding: 15px;
     margin: 20px;
     border-radius: 12px;
 }
 
-.storm-container{
+.storm-container {
     text-align: left;
     display: inline-block;
     color: lightblue;
     border: solid;
-    padding: 10px;
+    padding: 15px;
     margin: 20px;
     border-radius: 12px;
 }
 
-.checkbox{
+.checkbox {
     color: blueviolet;
+}
+
+.class-title {
+    text-decoration: underline;
 }

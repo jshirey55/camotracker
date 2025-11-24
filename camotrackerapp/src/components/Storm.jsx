@@ -8,7 +8,7 @@ export default function Storm() {
     <div className="storm-container">
         <h1>Storm</h1>
             
-            <h2>Assult Rifles</h2>
+            <h2 className="class-title">Assult Rifles</h2>
                 <div>M15 Mod
                     <input type="checkbox" id='m15'/>
                 </div>
@@ -28,7 +28,7 @@ export default function Storm() {
                     <input type="checkbox" id="peacekeeper"/>
                 </div>
 
-            <h2>Submachine Guns</h2>
+            <h2 className="class-title">Submachine Guns</h2>
                 <div>Ryden 45K
                     <input type="checkbox" id="ryden"/>
                 </div>
@@ -48,7 +48,7 @@ export default function Storm() {
                     <input type="checkbox" id="mpc"/>
                 </div>
 
-            <h2>Shotguns</h2>
+            <h2 className="class-title">Shotguns</h2>
                 <div>M10 Breacher
                     <input type="checkbox" id="m10"/>
                 </div>
@@ -59,17 +59,15 @@ export default function Storm() {
                     <input type="checkbox" id="akita"/>
                 </div>
 
-        <div id = 'lmg-container'>
-            <h2>Light Machine Gun</h2>
+            <h2 className="class-title">Light Machine Gun</h2>
                 <div>MK.78
                     <input type="checkbox" id="mk78"/>
                 </div>
                 <div>XM325
                     <input type="checkbox" id="xm325"/>
                 </div>
-        </div>
 
-            <h2>Marksman Rifles</h2>
+            <h2 className="class-title">Marksman Rifles</h2>
                 <div>M8A1
                     <input type="checkbox" id="m8a1"/>
                 </div>
@@ -80,7 +78,7 @@ export default function Storm() {
                     <input type="checkbox" id="m34"/>
                 </div>
 
-            <h2>Sniper Rifles</h2>
+            <h2 className="class-title">Sniper Rifles</h2>
                 <div>VS Recon
                     <input type="checkbox" id="vs"/>
                 </div>
@@ -91,7 +89,7 @@ export default function Storm() {
                     <input type="checkbox" id="xr3"/>
                 </div>
 
-            <h2>Pistols</h2>
+            <h2 className="class-title">Pistols</h2>
                 <div>Jager 45
                     <input type="checkbox" id="jager"/>
                 </div>
@@ -102,14 +100,14 @@ export default function Storm() {
                     <input type="checkbox" id="coda"/>
                 </div>
 
-            <h2>Launchers</h2>
+            <h2 className="class-title">Launchers</h2>
                 <div>AAROW 109
                     <input type="checkbox" id="aarow"/>
                 </div>
                 <div>A.R.C. M1
                     <input type="checkbox" id="arc"/>
                 </div>
-            <h2>Melee</h2>
+            <h2 className="class-title">Melee</h2>
                 <div>Knife
                     <input type="checkbox" id="knife"/>
                 </div>

@@ -11,7 +11,6 @@ function App() {
   return (
     <>
     <h1>Camo Tracker</h1>
-    <Count />
     <Gold />
     <ArcLight />
     <Storm />

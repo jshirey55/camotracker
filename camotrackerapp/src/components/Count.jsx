@@ -1,14 +1,14 @@
-export default function Count() {
-        const [count, setCount] = useState(0)
+// export default function Count() {
+//         const [count, setCount] = useState(0)
 
-        const increment = () => {
-            setCount(prevCount => prevCount + 1)
-        }
+//         const increment = () => {
+//             setCount(prevCount => prevCount + 1)
+//         }
 
-    return(
-        <>
-        <button onClick={increment}></button>
-        <div>{count}</div>
-        </>
-    )
-}
+//     return(
+//         <>
+//         <div>{count}</div>
+//         <button onClick={increment}></button>
+//         </>
+//     )
+// }

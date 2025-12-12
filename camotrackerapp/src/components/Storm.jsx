@@ -1,4 +1,5 @@
 import React from "react";
+import Weapons from "./Weapons";
 import "./styles/styles.css"
 
 export default function Storm() {
@@ -6,45 +7,51 @@ export default function Storm() {
     return(
         <>
     <div className="storm-container">
-        <h1>Storm</h1>
+        <h1>Tempest</h1>
             
             <h2 className="class-title">Assult Rifles</h2>
-                <div>M15 Mod
-                    <input type="checkbox" id='m15'/>
+                <div>{Weapons[0].name}
+                    <input type="checkbox" id='0'/>
                 </div>
-                <div>AK-27
-                    <input type="checkbox" id="ak27" />
+                <div>{Weapons[1].name}
+                    <input type="checkbox" id="1" />
                 </div>
-                <div>MXR-17
-                    <input type="checkbox" id="mxr17"/>
+                <div>{Weapons[2].name}
+                    <input type="checkbox" id="2"/>
                 </div>
-                <div>X9-Maverick
-                    <input type="checkbox" id="x9"/>
+                <div>{Weapons[3].name}
+                    <input type="checkbox" id="3"/>
                 </div>
-                <div>DS20 Mirage
-                    <input type="checkbox" id="ds20"/>
+                <div>{Weapons[4].name}
+                    <input type="checkbox" id="4"/>
                 </div>
-                <div>Peacekeeper Mk1
-                    <input type="checkbox" id="peacekeeper"/>
+                <div>{Weapons[5].name}
+                    <input type="checkbox" id="5"/>
+                </div>
+                <div>{Weapons[6].name}
+                    <input type="checkbox" id="6"/>
                 </div>
 
             <h2 className="class-title">Submachine Guns</h2>
-                <div>Ryden 45K
+                <div>{Weapons[7].name}
                     <input type="checkbox" id="ryden"/>
                 </div>
-                <div>RK-9
+                <div>{Weapons[8].name}
                     <input type="checkbox" id="rk9"/>
                 </div>
-                <div>Razor 9mm
+                <div>{Weapons[9].name}
                     <input type="checkbox" id="razor"/>
                 </div>
-                <div>Dravec 45
+                <div>{Weapons[10].name}
                     <input type="checkbox" id="dravec"/>
                 </div>
-                <div>Carbon 57
+                <div>{Weapons[11].name}
                     <input type="checkbox" id="carbon"/>
                 </div>
-                <div>MPC-25
+                <div>{Weapons[12].name}
+                    <input type="checkbox" id="mpc"/>
+                </div>
+                <div>{Weapons[13].name}
                     <input type="checkbox" id="mpc"/>
                 </div>
 
@@ -107,6 +114,7 @@ export default function Storm() {
                 <div>A.R.C. M1
                     <input type="checkbox" id="arc"/>
                 </div>
+            
             <h2 className="class-title">Melee</h2>
                 <div>Knife
                     <input type="checkbox" id="knife"/>

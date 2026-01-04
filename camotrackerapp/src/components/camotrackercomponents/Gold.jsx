@@ -1,15 +1,15 @@
-import React from "react";
-import "./styles/styles.css"
-import Weapons from "./Weapons";
+import React, {useState} from "react"
+import "../styles/styles.css"
+import Weapons from "../Weapons"
 
-export default function ArcLight() {
+export default function Gold() {
 
     return(
         <>
-    <div className="arc-light-container">
-        <h1>Arc Light</h1>
+    <div className="gold-container">
+        <h1>Gold</h1>
             
-            <h2 className="class-title">Assult Rifles</h2>
+           <h2 className="class-title">Assult Rifles</h2>
                 <div>{Weapons[0].name}
                     <input type="checkbox" id='0'/>
                 </div>

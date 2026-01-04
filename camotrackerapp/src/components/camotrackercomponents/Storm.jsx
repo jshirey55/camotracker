@@ -1,15 +1,15 @@
-import React, {useState} from "react"
-import "./styles/styles.css"
-import Weapons from "./Weapons"
+import React from "react";
+import "../styles/styles.css"
+import Weapons from "../Weapons";
 
-export default function Gold() {
-
+export default function Storm() {
+    
     return(
         <>
-    <div className="gold-container">
-        <h1>Gold</h1>
+    <div className="storm-container">
+        <h1>Tempest</h1>
             
-           <h2 className="class-title">Assult Rifles</h2>
+            <h2 className="class-title">Assult Rifles</h2>
                 <div>{Weapons[0].name}
                     <input type="checkbox" id='0'/>
                 </div>

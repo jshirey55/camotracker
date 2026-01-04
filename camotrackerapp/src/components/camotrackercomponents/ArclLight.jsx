@@ -1,13 +1,13 @@
 import React from "react";
-import Weapons from "./Weapons";
-import "./styles/styles.css"
+import "../styles/styles.css"
+import Weapons from "../Weapons";
 
-export default function Storm() {
-    
+export default function ArcLight() {
+
     return(
         <>
-    <div className="storm-container">
-        <h1>Tempest</h1>
+    <div className="arc-light-container">
+        <h1>Arc Light</h1>
             
             <h2 className="class-title">Assult Rifles</h2>
                 <div>{Weapons[0].name}

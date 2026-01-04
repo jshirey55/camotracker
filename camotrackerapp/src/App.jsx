@@ -1,19 +1,20 @@
 import { useState } from 'react'
 import './App.css'
-import Gold from './components/Gold'
-import ArcLight from './components/ArclLight'
-import Storm from './components/Storm'
-import Count from './components/Count'
+import Navbar from './components/NavBar'
+import { Routes, Route } from 'react-router-dom'
+import CamoTracker from './components/CamoTracker'
+import Home from './components/HomePage'
+import PathOfExile from './components/PathOfExile'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-    <h1>Camo Tracker</h1>
-    <Gold />
-    <ArcLight />
-    <Storm />
+    <Navbar />
+    <Routes>
+      <Route path = '/' element={<Home />} />
+      <Route path = '/camotracker' element={<CamoTracker />} />
+      <Route path = '/pathofexile' element={<PathOfExile />} />
+    </Routes>
     </>
   )
 }

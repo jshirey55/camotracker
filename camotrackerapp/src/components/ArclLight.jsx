@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/styles.css"
+import Weapons from "./Weapons";
 
 export default function ArcLight() {
 
@@ -9,110 +10,117 @@ export default function ArcLight() {
         <h1>Arc Light</h1>
             
             <h2 className="class-title">Assult Rifles</h2>
-                <div>M15 Mod
-                    <input type="checkbox" id='myCheckbox'/>
+                <div>{Weapons[0].name}
+                    <input type="checkbox" id='0'/>
                 </div>
-                <div>AK-27
-                    <input type="checkbox" id="ak27"/>
+                <div>{Weapons[1].name}
+                    <input type="checkbox" id="1" />
                 </div>
-                <div>MXR-17
-                    <input type="checkbox" id="mxr17"/>
+                <div>{Weapons[2].name}
+                    <input type="checkbox" id="2"/>
                 </div>
-                <div>X9-Maverick
-                    <input type="checkbox" id="x9"/>
+                <div>{Weapons[3].name}
+                    <input type="checkbox" id="3"/>
                 </div>
-                <div>DS20 Mirage
-                    <input type="checkbox" id="ds20"/>
+                <div>{Weapons[4].name}
+                    <input type="checkbox" id="4"/>
                 </div>
-                <div>Peacekeeper Mk1
-                    <input type="checkbox" id="peacekeeper"/>
+                <div>{Weapons[5].name}
+                    <input type="checkbox" id="5"/>
+                </div>
+                <div>{Weapons[6].name}
+                    <input type="checkbox" id="6"/>
                 </div>
 
             <h2 className="class-title">Submachine Guns</h2>
-                <div>Ryden 45K
-                    <input type="checkbox" id="ryden"/>
+                <div>{Weapons[7].name}
+                    <input type="checkbox" id="7"/>
                 </div>
-                <div>RK-9
-                    <input type="checkbox" id="rk9"/>
+                <div>{Weapons[8].name}
+                    <input type="checkbox" id="8"/>
                 </div>
-                <div>Razor 9mm
-                    <input type="checkbox" id="razor"/>
+                <div>{Weapons[9].name}
+                    <input type="checkbox" id="9"/>
                 </div>
-                <div>Dravec 45
-                    <input type="checkbox" id="dravec"/>
+                <div>{Weapons[10].name}
+                    <input type="checkbox" id="10"/>
                 </div>
-                <div>Carbon 57
-                    <input type="checkbox" id="carbon"/>
+                <div>{Weapons[11].name}
+                    <input type="checkbox" id="11"/>
                 </div>
-                <div>MPC-25
-                    <input type="checkbox" id="mpc"/>
+                <div>{Weapons[12].name}
+                    <input type="checkbox" id="12"/>
+                </div>
+                <div>{Weapons[13].name}
+                    <input type="checkbox" id="13"/>
                 </div>
 
             <h2 className="class-title">Shotguns</h2>
-                <div>M10 Breacher
-                    <input type="checkbox" id="m10"/>
+                <div>{Weapons[14].name}
+                    <input type="checkbox" id="14"/>
                 </div>
-                <div>Echo 12
-                    <input type="checkbox" id="echo"/>
+                <div>{Weapons[15].name}
+                    <input type="checkbox" id="15"/>
                 </div>
-                <div>Akita
-                    <input type="checkbox" id="akita"/>
+                <div>{Weapons[16].name}
+                    <input type="checkbox" id="16"/>
                 </div>
 
             <h2 className="class-title">Light Machine Gun</h2>
-                <div>MK.78
-                    <input type="checkbox" id="mk78"/>
+                <div>{Weapons[17].name}
+                    <input type="checkbox" id="17"/>
                 </div>
-                <div>XM325
-                    <input type="checkbox" id="xm325"/>
+                <div>{Weapons[18].name}
+                    <input type="checkbox" id="18"/>
                 </div>
 
             <h2 className="class-title">Marksman Rifles</h2>
-                <div>M8A1
-                    <input type="checkbox" id="m8a1"/>
+                <div>{Weapons[19].name}
+                    <input type="checkbox" id="19"/>
                 </div>
-                <div>Warden 308
-                    <input type="checkbox" id="warden"/>
+                <div>{Weapons[20].name}
+                    <input type="checkbox" id="20"/>
                 </div>
-                <div>M34 Novaline
-                    <input type="checkbox" id="m34"/>
+                <div>{Weapons[21].name}
+                    <input type="checkbox" id="21"/>
                 </div>
 
             <h2 className="class-title">Sniper Rifles</h2>
-                <div>VS Recon
-                    <input type="checkbox" id="vs"/>
+                <div>{Weapons[22].name}
+                    <input type="checkbox" id="22"/>
                 </div>
-                <div>Shadow SK
-                    <input type="checkbox" id="shadow"/>
+                <div>{Weapons[23].name}
+                    <input type="checkbox" id="23"/>
                 </div>
-                <div>XR-3 Ion
-                    <input type="checkbox" id="xr3"/>
+                <div>{Weapons[24].name}
+                    <input type="checkbox" id="24"/>
                 </div>
 
             <h2 className="class-title">Pistols</h2>
-                <div>Jager 45
-                    <input type="checkbox" id="jager"/>
+                <div>{Weapons[25].name}
+                    <input type="checkbox" id="25"/>
                 </div>
-                <div>Velox 5.7
-                    <input type="checkbox" id="velox"/>
+                <div>{Weapons[26].name}
+                    <input type="checkbox" id="26"/>
                 </div>
-                <div>Coda 9
-                    <input type="checkbox" id="coda"/>
+                <div>{Weapons[27].name}
+                    <input type="checkbox" id="27"/>
                 </div>
 
             <h2 className="class-title">Launchers</h2>
-                <div>AAROW 109
-                    <input type="checkbox" id="aarow"/>
+                <div>{Weapons[28].name}
+                    <input type="checkbox" id="28"/>
                 </div>
-                <div>A.R.C. M1
-                    <input type="checkbox" id="arc"/>
+                <div>{Weapons[29].name}
+                    <input type="checkbox" id="29"/>
                 </div>
+            
             <h2 className="class-title">Melee</h2>
-                <div>Knife
-                    <input type="checkbox" id="knife"/>
+                <div>{Weapons[30].name}
+                    <input type="checkbox" id="30"/>
                 </div>
-                <div>Flatline MK.II
-                    <input type="checkbox" id="flatline"/>
+                <div>{Weapons[31].name}
+                    <input type="checkbox" id="31"/>
                 </div>
             </div>
         </>

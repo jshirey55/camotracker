@@ -1,4 +1,4 @@
-// export default function Count() {
+ export default function Count() {
 //         const [count, setCount] = useState(0)
 
 //         const increment = () => {
@@ -11,4 +11,4 @@
 //         <button onClick={increment}></button>
 //         </>
 //     )
-// }
+}

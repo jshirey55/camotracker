@@ -7,9 +7,9 @@ import React from "react";
 const NavBar = () => {
     return (
             <nav className="navbar">
-                <NavLink to = "/">Home</NavLink>
-                <NavLink to = "/camotracker">Camo Tracker</NavLink>
-                <NavLink to = "/pathofexile">Path of Exile</NavLink>
+                <NavLink className = "navlink" to = "/">Home</NavLink>
+                <NavLink className = "navlink" to = "/camotracker">Camo Tracker</NavLink>
+                <NavLink className = "navlink" to = "/pathofexile">Path of Exile</NavLink>
             </nav>
     )
 }

@@ -39,3 +39,8 @@
 .homepagepoeimg {
     max-height: 150px
 }
+
+.homepagepoeimg:hover {
+    transition: transform 0.2s;
+    transform: translateY(-4px);
+}
